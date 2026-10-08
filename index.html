@@ -3,474 +3,413 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="title" content="ARTIST: Adaptive Humanoid Rigging by Transferring Individual Style with Optimal Transport">
+  <meta name="description" content="ARTIST is a voxel-based humanoid auto-rigging network with one-shot style adaptation: from a single artist-rigged example, volumetric optimal transport transfers the artist's joint-placement style to any new character. Eurographics 2026 short paper.">
+  <meta name="keywords" content="auto-rigging, rigging, character animation, optimal transport, volumetric shape matching, geometric deep learning, VoxNet, humanoid characters, Eurographics 2026">
+  <meta name="author" content="Jeanne-Emma Lefèvre, Théo Cheynel, Omar El Khalifi, Thomas Daniel, Baptiste Bellot-Gurlet">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
-  
-  <!-- Open Graph / Facebook -->
+
+  <!-- Open Graph -->
   <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:site_name" content="ARTIST – Eurographics 2026">
+  <meta property="og:title" content="ARTIST: Adaptive Humanoid Rigging by Transferring Individual Style with Optimal Transport">
+  <meta property="og:description" content="One-shot rigging style adaptation with volumetric optimal transport. Eurographics 2026 short paper.">
+  <meta property="og:url" content="https://jajouuuuu.github.io/ARTIST-Adaptive-Humanoid-Rigging-by-Transferring-Individual-Style-with-Optimal-Transport/">
+  <meta property="og:image" content="https://jajouuuuu.github.io/ARTIST-Adaptive-Humanoid-Rigging-by-Transferring-Individual-Style-with-Optimal-Transport/static/images/social_preview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="og:image:alt" content="ARTIST architecture overview">
+  <meta property="article:published_time" content="2026-05-01T00:00:00.000Z">
+  <meta property="article:author" content="Jeanne-Emma Lefèvre">
   <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="article:tag" content="Rigging">
+  <meta property="article:tag" content="Optimal Transport">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="twitter:title" content="ARTIST: Adaptive Humanoid Rigging by Transferring Individual Style with Optimal Transport">
+  <meta name="twitter:description" content="One-shot rigging style adaptation with volumetric optimal transport. Eurographics 2026 short paper.">
+  <meta name="twitter:image" content="https://jajouuuuu.github.io/ARTIST-Adaptive-Humanoid-Rigging-by-Transferring-Individual-Style-with-Optimal-Transport/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="ARTIST architecture overview">
 
-  <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
-  <!-- Additional SEO -->
+  <!-- Academic (Google Scholar) -->
+  <meta name="citation_title" content="ARTIST: Adaptive Humanoid Rigging by Transferring Individual Style with Optimal Transport">
+  <meta name="citation_author" content="Lefèvre, Jeanne-Emma">
+  <meta name="citation_author" content="Cheynel, Théo">
+  <meta name="citation_author" content="El Khalifi, Omar">
+  <meta name="citation_author" content="Daniel, Thomas">
+  <meta name="citation_author" content="Bellot-Gurlet, Baptiste">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="Eurographics 2026 - Short Papers">
+  <meta name="citation_doi" content="10.2312/egs.20261001">
+  <meta name="citation_pdf_url" content="https://jajouuuuu.github.io/ARTIST-Adaptive-Humanoid-Rigging-by-Transferring-Individual-Style-with-Optimal-Transport/static/pdfs/ARTIST_EG2026_short_paper.pdf">
+
   <meta name="theme-color" content="#2563eb">
-  <meta name="msapplication-TileColor" content="#2563eb">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
-  <!-- Preconnect for performance -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://ajax.googleapis.com">
-  <link rel="preconnect" href="https://documentcloud.adobe.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
+  <title>ARTIST: Adaptive Humanoid Rigging by Transferring Individual Style with Optimal Transport</title>
 
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-  
-  <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
-  <!-- Critical CSS - Load synchronously -->
+
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  
-  <!-- Non-critical CSS - Load asynchronously -->
-  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
-  <!-- Fallback for browsers that don't support preload -->
   <noscript>
-    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
     <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   </noscript>
-  
-  <!-- Fonts - Optimized loading -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Defer non-critical JavaScript -->
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+
   <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script defer src="static/js/bulma-carousel.min.js"></script>
-  <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
-  
-  <!-- Structured Data for Academic Papers -->
+
+  <style>
+    .figure-block { margin: 1.5rem auto; text-align: center; }
+    .figure-block img { width: 100%; height: auto; border-radius: 8px; }
+    .figure-caption { font-size: 0.95rem; color: #4b5563; margin-top: 0.6rem; text-align: center; }
+    .results-table { margin: 1rem auto; font-size: 0.95rem; }
+    .results-table th, .results-table td { text-align: center !important; padding: 0.4em 0.8em !important; }
+    .results-table td:first-child, .results-table th:first-child { text-align: left !important; }
+    .results-table tr.ours td { font-weight: 700; background: #eef4ff; }
+    .results-table tr.sep td { border-top: 2px solid #9ca3af; }
+    .key-points { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+    .key-point { background: #f8fafc; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1.2rem; text-align: left; }
+    .key-point h4 { margin: 0 0 0.4rem 0; font-size: 1.05rem; font-weight: 700; }
+    .key-point p { margin: 0; font-size: 0.95rem; color: #374151; }
+    .previous-work-card { display: flex; gap: 1.5rem; align-items: center; background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; }
+    .previous-work-card img { width: 45%; border-radius: 8px; }
+    @media (max-width: 768px) { .previous-work-card { flex-direction: column; } .previous-work-card img { width: 100%; } }
+    .publication-venue { font-weight: 600; color: #2563eb; margin-top: 0.5rem; }
+    .affil sup, .author-block sup { font-size: 0.7em; }
+    .table-wrap { overflow-x: auto; }
+  </style>
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "ARTIST: Adaptive Humanoid Rigging by Transferring Individual Style with Optimal Transport",
     "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
+      {"@type": "Person", "name": "Jeanne-Emma Lefèvre"},
+      {"@type": "Person", "name": "Théo Cheynel"},
+      {"@type": "Person", "name": "Omar El Khalifi"},
+      {"@type": "Person", "name": "Thomas Daniel"},
+      {"@type": "Person", "name": "Baptiste Bellot-Gurlet"}
     ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
+    "datePublished": "2026",
+    "publisher": {"@type": "Organization", "name": "The Eurographics Association"},
+    "sameAs": "https://doi.org/10.2312/egs.20261001",
+    "keywords": ["Rigging", "Computer Graphics", "Geometric Deep Learning", "Optimal Transport", "Volumetric Shape Matching"],
     "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
-  </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
+    "license": "https://creativecommons.org/licenses/by/4.0/"
   }
   </script>
 </head>
 <body>
 
-
-  <!-- Scroll to Top Button -->
   <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
   <main id="main-content">
+
+  <!-- ===================== Title / authors / links ===================== -->
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">ARTIST: Adaptive Humanoid Rigging by Transferring Individual Style with Optimal Transport</h1>
+
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+              <span class="author-block"><a href="https://github.com/Jajouuuuu" target="_blank">Jeanne-Emma Lefèvre</a><sup>1,3*</sup>,</span>
+              <span class="author-block">Théo Cheynel<sup>1,2*</sup>,</span>
+              <span class="author-block">Omar El Khalifi<sup>1</sup>,</span>
+              <span class="author-block">Thomas Daniel<sup>1</sup>,</span>
+              <span class="author-block">Baptiste Bellot-Gurlet<sup>1</sup></span>
+            </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+            <div class="is-size-6 publication-authors affil">
+              <span class="author-block"><sup>1</sup>Kinetix</span>&nbsp;&nbsp;
+              <span class="author-block"><sup>2</sup>LIX, École Polytechnique, CNRS, IP Paris</span>&nbsp;&nbsp;
+              <span class="author-block"><sup>3</sup>Université Claude Bernard Lyon 1, INSA Lyon, CNRS, LIRIS</span>
+              <span class="eql-cntrb"><small><br><sup>*</sup>Equal contribution</small></span>
+            </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+            <div class="publication-venue is-size-5">Eurographics 2026 &middot; Short Papers</div>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="static/pdfs/ARTIST_EG2026_short_paper.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span><span>Paper</span>
                   </a>
                 </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                  <a href="https://doi.org/10.2312/egs.20261001" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="ai ai-doi"></i></span><span>EG Digital Library</span>
+                  </a>
+                </span>
+                <!-- VIDEO BUTTON: uncomment once static/videos/ARTIST_video.mp4 (or a YouTube link) exists
+                <span class="link-block">
+                  <a href="#video" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-video"></i></span><span>Video</span>
+                  </a>
+                </span>
+                -->
+                <!-- POSTER BUTTON: uncomment once static/pdfs/ARTIST_poster.pdf exists
+                <span class="link-block">
+                  <a href="static/pdfs/ARTIST_poster.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-image"></i></span><span>Poster</span>
+                  </a>
+                </span>
+                -->
+                <span class="link-block">
+                  <a href="#previous-work" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-history"></i></span><span>Previous work (SIGGRAPH Asia '25)</span>
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
+  <!-- ===================== Teaser ===================== -->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <img src="static/images/teaser.jpg" alt="Architecture of ARTIST: rigging network and style adaptation via optimal transport" style="width:100%; border-radius:8px;">
+        <h2 class="subtitle has-text-centered" style="margin-top:1rem;">
+          Our rigging network automatically rigs the <b>target character</b>. If the artist provides an <b>example rigged character</b>,
+          our optimal transport method copies its rigging style, so the resulting rig better respects the artist's own conventions.
         </h2>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
+  </section>
 
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+  <!-- ===================== Abstract ===================== -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Automatic rigging transforms static meshes into articulated characters by predicting skeletal structure.
+              However, rigging is inherently subjective: artists develop personal preferences for joint placement.
+              Current approaches omit this aspect, learning only the average &ldquo;style&rdquo; of their training data.
+              We quantify inter-artist variance through a user study and dataset analysis, demonstrating this notion of
+              &ldquo;rigging style&rdquo;. We propose a voxel-based model leveraging pretrained 3D backbones that outperforms
+              state-of-the-art methods. We also introduce a one-shot style adaptation method based on volumetric optimal transport:
+              given a single artist-rigged example, we transfer its stylistic joint placements to any new character.
+              This improves any rigging model and supports different bone counts or hierarchies, reconciling automatic rigging
+              with artistic variability.
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End youtube video -->
+  </section>
 
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
+  <!-- ===================== Video (enable when ready) ===================== -->
+  <!--
+  <section class="hero is-small" id="video">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3 has-text-centered">Video</h2>
+        Option A: local file (keep it under ~50 MB, GitHub refuses files over 100 MB)
+        <video controls preload="metadata" style="width:100%; border-radius:8px;" poster="static/images/teaser.jpg">
+          <source src="static/videos/ARTIST_video.mp4" type="video/mp4">
+        </video>
+        Option B: YouTube, replace VIDEO_ID
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
       </div>
     </div>
   </section>
-<!--End paper poster -->
+  -->
 
+  <!-- ===================== Rigging is subjective ===================== -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Rigging is subjective</h2>
+      <div class="content has-text-justified">
+        <p>
+          We asked <b>10 professional rigging artists</b> to rig the same set of 10 characters. Pairwise Chamfer distances
+          between their annotations reveal significant inter-artist differences, especially on clavicles, spines, knees and toes.
+          These differences are not noise: each artist is <b>consistent across characters</b>. A t-SNE of each annotation's offset
+          from the mean annotation clusters by artist (Silhouette 0.168). The same structure appears in the RigNet-v1 dataset when
+          characters are grouped by video game of origin (Silhouette 0.101). In other words, &ldquo;rigging style&rdquo; exists,
+          and a network trained on mixed data only learns the average.
+        </p>
+      </div>
+      <div class="figure-block">
+        <img src="static/images/style_differences.jpg" alt="Stylistic differences between two artists on feet, clavicles, knees and spines" loading="lazy">
+        <p class="figure-caption">Stylistic differences in rigging between two artists (left to right: feet, clavicles, knees, spines).</p>
+      </div>
+      <div class="figure-block" style="max-width:720px;">
+        <img src="static/images/tsne.jpg" alt="t-SNE visualizations of rigging style clusters" loading="lazy">
+        <p class="figure-caption">
+          <b>Left:</b> t-SNE of each artist's annotation offset from the mean annotation (one color per artist).
+          <b>Right:</b> t-SNE of TARig's error with respect to ground truth on RigNet-v1 (one color per video game of origin).
+        </p>
+      </div>
+    </div>
+  </section>
 
+  <!-- ===================== Method ===================== -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Method</h2>
 
-<!--BibTex citation -->
+      <div class="key-points">
+        <div class="key-point">
+          <h4><i class="fas fa-cube"></i> Voxel rigging network</h4>
+          <p>A pretrained VoxNet backbone on a 256³ occupancy grid, followed by convolutional layers and an MLP head, regresses
+             21 joint positions. It is trained end-to-end with an MSE loss.</p>
+        </div>
+        <div class="key-point">
+          <h4><i class="fas fa-people-arrows"></i> Shape-aware augmentation</h4>
+          <p>9,000+ characters (HumanRig, Mixamo, RigNet-v1) are deformed with per-region lattice scaling (head, torso, arms, legs)
+             for robustness to varied body proportions.</p>
+        </div>
+        <div class="key-point">
+          <h4><i class="fas fa-random"></i> One-shot style transfer</h4>
+          <p>Volumetric optimal transport between an artist-rigged example and the target character carries the example's joint
+             placements over. No training is required.</p>
+        </div>
+      </div>
+
+      <div class="figure-block" style="max-width:820px;">
+        <img src="static/images/augmentation.jpg" alt="Data augmentation examples" loading="lazy">
+        <p class="figure-caption">Examples of our lattice-based data augmentation (original characters on the left).</p>
+      </div>
+
+      <h3 class="title is-4">Style adaptation via volumetric optimal transport</h3>
+      <div class="content has-text-justified">
+        <p>
+          We sample points inside the volumes of the example character <i>Q</i><sup>E</sup> and the target character <i>Q</i><sup>T</sup>, using the
+          voxel grid with a shrinkwrap step for better surface coverage. We then solve an entropy-regularized optimal transport
+          problem (Sinkhorn) between the two distributions.
+        </p>
+        <p>
+          <b>Body-part-balanced marginals.</b> Uniform marginals fail when proportions differ: for instance, the example's chin can
+          get mapped to the target's nose. We therefore use our rigging network to predict bones on <i>both</i> characters, compute
+          voxel-based skinning weights (geodesic voxel binding), and choose marginals so that every bone receives the same total
+          mass in both distributions. A fast iterative scheme exploits the sparsity of the skinning weights.
+        </p>
+        <p>
+          <b>Bone transfer.</b> Each artist-placed bone of the example is moved into the target by interpolating the transport plan
+          over its k nearest samples (Shepard / inverse-distance weighting). The transfer is independent of the skeleton definition,
+          so it works with <b>any number of joints and any hierarchy</b>, and it can be plugged on top of <b>any</b> rigging model.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Results ===================== -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Results</h2>
+
+      <h3 class="title is-5">Joint prediction (test set of 1,382 characters)</h3>
+      <div class="table-wrap">
+        <table class="table results-table is-hoverable">
+          <thead>
+            <tr><th>Method</th><th>MAE ↓</th><th>MSE ↓</th><th>CD-J2J ↓</th><th>CD-J2B ↓</th><th>CD-B2B ↓</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>ResNet (multi-view images)</td><td>0.0444</td><td>0.0013</td><td>0.0357</td><td>0.0262</td><td>0.0258</td></tr>
+            <tr><td>PointNet (point cloud)</td><td>0.0532</td><td>0.0022</td><td>0.0418</td><td>0.0323</td><td>0.0315</td></tr>
+            <tr><td>VoxNet (voxels)</td><td>0.0296</td><td>0.0007</td><td>0.0248</td><td>0.0166</td><td>0.0156</td></tr>
+            <tr class="sep"><td>RigNet</td><td>0.0302</td><td>0.0025</td><td>0.0302</td><td>0.0249</td><td>0.0245</td></tr>
+            <tr><td>TARig</td><td>0.0277</td><td>0.0020</td><td>0.0277</td><td>0.0222</td><td>0.0221</td></tr>
+            <tr class="ours"><td>Ours</td><td>0.0166</td><td>0.0005</td><td>0.0216</td><td>0.0143</td><td>0.0123</td></tr>
+            <tr class="sep"><td><i>Artists (user study, 10 characters)</i></td><td>0.0197</td><td>0.0002</td><td>0.0170</td><td>0.0162</td><td>0.0080</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="figure-block" style="max-width:760px;">
+        <img src="static/images/predictions.jpg" alt="Predictions of the rigging network on two unseen characters" loading="lazy">
+        <p class="figure-caption">Predictions of our rigging network on two unseen characters from the test set.</p>
+      </div>
+
+      <h3 class="title is-5">Style adaptation with optimal transport (OT)</h3>
+      <div class="table-wrap">
+        <table class="table results-table is-hoverable">
+          <thead>
+            <tr><th>Method</th><th>MAE ↓</th><th>MSE ↓</th><th>CD-J2J ↓</th><th>CD-J2B ↓</th><th>CD-B2B ↓</th></tr>
+          </thead>
+          <tbody>
+            <tr><td colspan="6" style="text-align:left !important; color:#6b7280;"><i>RigNet-v1 dataset</i></td></tr>
+            <tr><td>TARig</td><td>0.0248</td><td>0.0003</td><td>0.0218</td><td>0.0144</td><td>0.0121</td></tr>
+            <tr class="ours"><td>TARig + OT</td><td>0.0220</td><td>0.0002</td><td>0.0206</td><td>0.0127</td><td>0.0108</td></tr>
+            <tr class="sep"><td colspan="6" style="text-align:left !important; color:#6b7280;"><i>User-study characters</i></td></tr>
+            <tr><td>TARig</td><td>0.0234</td><td>0.0003</td><td>0.0219</td><td>0.0127</td><td>0.0099</td></tr>
+            <tr class="ours"><td>TARig + OT</td><td>0.0219</td><td>0.0002</td><td>0.0210</td><td>0.0105</td><td>0.0081</td></tr>
+            <tr><td>Ours</td><td>0.0201</td><td>0.0004</td><td>0.0188</td><td>0.0126</td><td>0.0110</td></tr>
+            <tr class="ours"><td>Ours + OT</td><td>0.0182</td><td>0.0002</td><td>0.0171</td><td>0.0101</td><td>0.0085</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="figure-caption">OT style adaptation improves every metric, for our network and for TARig alike.
+        Results of <i>Ours</i> on RigNet-v1 are not reported because it was part of the training set.</p>
+    </div>
+  </section>
+
+  <!-- ===================== Poster (enable when ready) ===================== -->
+  <!--
+  <section class="hero is-small is-light" id="poster">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3 has-text-centered">Poster</h2>
+        <iframe src="static/pdfs/ARTIST_poster.pdf" width="100%" height="800" style="border-radius:8px; border:1px solid #e5e7eb;"></iframe>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- ===================== Previous work ===================== -->
+  <section class="section hero is-light" id="previous-work">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Previous work</h2>
+      <p class="has-text-centered" style="margin-bottom:1.5rem;">ARTIST extends our SIGGRAPH Asia 2025 poster, which compared 3D input representations for rigging and introduced the user study.</p>
+      <div class="previous-work-card">
+        <img src="static/images/acm_architecture.jpg" alt="Architecture of the keypoint prediction models for the three 3D modalities">
+        <div>
+          <h3 class="title is-5" style="margin-bottom:0.4rem;">Comparing 3D Data Representations for Keypoint Estimation in Humanoid Characters</h3>
+          <p class="is-size-6" style="margin-bottom:0.4rem;">Jeanne-Emma Lefèvre, Théo Cheynel, Thomas Daniel</p>
+          <p class="is-size-6" style="color:#2563eb; font-weight:600; margin-bottom:0.8rem;">SIGGRAPH Asia 2025 Posters, Hong Kong</p>
+          <p class="is-size-6" style="margin-bottom:1rem;">
+            We build a multimodal dataset (multi-view images, voxels, point clouds) and train one keypoint regressor per modality
+            with frozen pretrained backbones (ResNet-50, VoxNet, PointNet). Voxels perform best and outperform TARig. A user study
+            with expert riggers gives a human-disagreement baseline for interpreting rigging metrics.
+          </p>
+          <a href="https://doi.org/10.1145/3757374.3771481" target="_blank" class="button is-small is-rounded is-dark">
+            <span class="icon"><i class="ai ai-doi"></i></span><span>ACM DL</span>
+          </a>
+          <a href="static/pdfs/Keypoints_SIGGRAPHAsia2025_poster_paper.pdf" target="_blank" class="button is-small is-rounded is-dark">
+            <span class="icon"><i class="fas fa-file-pdf"></i></span><span>PDF</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== BibTeX ===================== -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <div class="bibtex-header">
@@ -480,41 +419,46 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+      <pre id="bibtex-code"><code>@inproceedings{lefevre2026artist,
+  booktitle = {Eurographics 2026 - Short Papers},
+  editor    = {Musialski, Przemyslaw and Lim, Isaak},
+  title     = {{ARTIST: Adaptive Humanoid Rigging by Transferring Individual Style with Optimal Transport}},
+  author    = {Lef{\`e}vre, Jeanne-Emma and Cheynel, Th{\'e}o and El Khalifi, Omar and Daniel, Thomas and Bellot-Gurlet, Baptiste},
+  year      = {2026},
+  publisher = {The Eurographics Association},
+  ISSN      = {2309-5059},
+  ISBN      = {978-3-03868-299-8},
+  DOI       = {10.2312/egs.20261001}
+}
+
+@inproceedings{lefevre2025comparing,
+  title     = {Comparing 3D Data Representations for Keypoint Estimation in Humanoid Characters},
+  author    = {Lef{\`e}vre, Jeanne-Emma and Cheynel, Th{\'e}o and Daniel, Thomas},
+  booktitle = {SIGGRAPH Asia 2025 Posters},
+  year      = {2025},
+  publisher = {ACM},
+  doi       = {10.1145/3757374.3771481}
 }</code></pre>
     </div>
-</section>
-<!--End BibTex citation -->
+  </section>
 
+  </main>
 
   <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content has-text-centered">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>,
+              which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</body>
+</html>
