@@ -55,6 +55,7 @@
 
   <title>ARTIST: Adaptive Humanoid Rigging by Transferring Individual Style with Optimal Transport</title>
 
+  <link rel="icon" type="image/svg+xml" href="static/images/favicon.svg">
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
 
@@ -158,13 +159,11 @@
                     <span class="icon"><i class="ai ai-doi"></i></span><span>EG Digital Library</span>
                   </a>
                 </span>
-                <!-- VIDEO BUTTON: uncomment once static/videos/ARTIST_video.mp4 (or a YouTube link) exists
                 <span class="link-block">
-                  <a href="#video" class="external-link button is-normal is-rounded is-dark">
+                  <a href="static/videos/ARTIST_banner.mp4" target="_blank" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon"><i class="fas fa-video"></i></span><span>Video</span>
                   </a>
                 </span>
-                -->
                 <!-- POSTER BUTTON: uncomment once static/pdfs/ARTIST_poster.pdf exists
                 <span class="link-block">
                   <a href="static/pdfs/ARTIST_poster.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
@@ -185,14 +184,15 @@
     </div>
   </section>
 
-  <!-- ===================== Teaser ===================== -->
-  <section class="hero teaser">
+  <!-- ===================== Banner video ===================== -->
+  <section class="hero teaser" id="video">
     <div class="container is-max-desktop">
       <div class="hero-body">
-        <img src="static/images/teaser.jpg" alt="Architecture of ARTIST: rigging network and style adaptation via optimal transport" style="width:100%; border-radius:8px;">
+        <video id="banner-video" autoplay muted loop playsinline controls preload="metadata" poster="static/images/banner_poster.jpg" style="width:100%; border-radius:8px;">
+          <source src="static/videos/ARTIST_banner.mp4" type="video/mp4">
+        </video>
         <h2 class="subtitle has-text-centered" style="margin-top:1rem;">
-          Our rigging network automatically rigs the <b>target character</b>. If the artist provides an <b>example rigged character</b>,
-          our optimal transport method copies its rigging style, so the resulting rig better respects the artist's own conventions.
+          Rig any humanoid character automatically, or transfer <b>your own rigging style</b> from a single example with volumetric optimal transport.
         </h2>
       </div>
     </div>
@@ -222,24 +222,19 @@
     </div>
   </section>
 
-  <!-- ===================== Video (enable when ready) ===================== -->
-  <!--
-  <section class="hero is-small" id="video">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <h2 class="title is-3 has-text-centered">Video</h2>
-        Option A: local file (keep it under ~50 MB, GitHub refuses files over 100 MB)
-        <video controls preload="metadata" style="width:100%; border-radius:8px;" poster="static/images/teaser.jpg">
-          <source src="static/videos/ARTIST_video.mp4" type="video/mp4">
-        </video>
-        Option B: YouTube, replace VIDEO_ID
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
+  <!-- ===================== Overview (Figure 1) ===================== -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div>
+        <h2 class="title is-3 has-text-centered">Overview</h2>
+        <img src="static/images/teaser.jpg" alt="Architecture of ARTIST: rigging network and style adaptation via optimal transport" style="width:100%; border-radius:8px;">
+        <h2 class="subtitle has-text-centered" style="margin-top:1rem;">
+          Our rigging network automatically rigs the <b>target character</b>. If the artist provides an <b>example rigged character</b>,
+          our optimal transport method copies its rigging style, so the resulting rig better respects the artist's own conventions.
+        </h2>
       </div>
     </div>
   </section>
-  -->
 
   <!-- ===================== Rigging is subjective ===================== -->
   <section class="section">
